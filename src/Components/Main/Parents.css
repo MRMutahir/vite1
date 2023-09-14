@@ -1,0 +1,71 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+  margin: 0px auto;
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  justify-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: bisque;
+  height: 30vh; */
+  width: 50vw;
+}
+.circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 26px;
+  font-family: monospace;
+  margin: 0px auto;
+  /* border: 2px solid aquamarine; */
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  background-color: bisque;
+}
+.btn-div {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-div {
+  padding: 10vh;
+  margin: 0px auto;
+}
+
+.btn-div button {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
