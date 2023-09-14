@@ -40,13 +40,13 @@ function Main() {
     }
 
 
-    let data = [{
-        number: 1
-    }, {
-        number: 2
-    }, {
-        number: 3
-    }]
+    // let data = [{
+    //     number: 1
+    // }, {
+    //     number: 2
+    // }, {
+    //     number: 3
+    // }]
     return (
         <div className='Main'>
             <div className="circles">

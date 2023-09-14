@@ -10,8 +10,12 @@ function App() {
   return (
     <>
       <div className='body'>
-  
-        <center><h1> SALAM </h1></center>
+
+        <center>
+          <h1>
+            السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ
+          </h1>
+        </center>
         <Parent /></div>
     </>
   )
